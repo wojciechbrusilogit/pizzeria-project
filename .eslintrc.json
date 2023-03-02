@@ -10,8 +10,7 @@
     },
     "rules": {
         "indent": [
-            "error",
-            2
+            "off",
         ],
         "linebreak-style": [
             "off"
@@ -19,7 +18,9 @@
         "quotes": [
             "error",
             "single",
-            {"allowTemplateLiterals": true}
+            {
+                "allowTemplateLiterals": true
+            }
         ],
         "semi": [
             "error",
@@ -30,6 +31,6 @@
         ]
     },
     "globals": {
-      "Handlebars": false
+        "Handlebars": false
     }
 }
