@@ -40,7 +40,7 @@ class Cart {
         });
 
         thisCart.dom.productList.addEventListener('remove', function () {
-            thisCart.remove(event.detail.CartProduct);
+            thisCart.remove(event.detail.cartProduct);
         });
 
         thisCart.dom.form.addEventListener('submit', function (event) {
